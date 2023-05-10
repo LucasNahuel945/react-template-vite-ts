@@ -1,0 +1,94 @@
+*,
+*::after,
+*::before {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.875rem;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  user-select: none;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-align: left;
+  font-weight: 600;
+}
+
+h6,
+h5 {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 1.375rem;
+}
+
+h2 {
+  font-size: 1.125rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+h4 {
+  font-size: 0.875rem;
+}
+
+h5 {
+  font-size: 0.875rem;
+}
+
+h6 {
+  font-size: 0.625rem;
+}
+
+.flex-between {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-centered {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.flex-inline {
+  align-items: center;
+  display: flex;
+}
+
+.flex-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.gap-4 {
+  gap: 4px;
+}
+
+.gap-8 {
+  gap: 8px;
+}
+
+.gap-16 {
+  gap: 16px;
+}
